@@ -1,0 +1,70 @@
+#form-box {
+    width: 700px;
+    margin: 30px auto;
+    padding-left: 15px;
+    display:flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 30px auto;
+    text-align: center;
+}
+
+h3 {
+    margin: 30px auto;
+    text-align:center;
+}
+
+button {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    padding: 20px;
+    line-height: 24px;
+    width: 200px;
+    transition: 0.1s ease;
+    border-radius: 3px;
+}
+
+.btn-delete {
+    margin:5px;
+    background-color: red;
+    color: black;
+    width: 50px;
+    line-height: 3px;
+}
+
+form {
+    display:flex;
+}
+
+input {
+    margin: 20px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+table {
+  text-align: left;
+  width: 640px;
+  margin: 30px auto;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+th {
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+td {
+    padding: 10px 15px 
+    color:gray;
+  }
+}

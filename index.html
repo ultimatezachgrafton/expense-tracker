@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="dom.js"></script>
+
+<head>
+    <title>Expense Tracker</title>
+</head>
+<body>
+<h1>Track Your Expenses!</h1>
+<div id="form-box">
+    <form>
+    <div>
+        <label>Date </label><input type="date" id="date">
+      </div>
+
+      <div>
+        <label>Description </label><input id="desc">
+      </div>
+
+      <div>
+        <label>Amount </label><input id="amount">
+      </div>
+
+      <div>
+        <label>Location </label><input id="loc">
+      </div>
+      
+      </table>
+    </form>
+</div>
+    
+    <div id="button"><button onclick="addTableRow()">Add this expense</button></div>
+
+
+<div class="table-transactions" >
+      <h3>Transaction History:</h3>
+      <table id="transactions" class="table">
+        <thead>
+          <th>Date</th>
+          <th>Transaction</th>
+          <th>Amount</th>
+          <th>Balance</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+        </table>
+    </div>
+    
+</body>
