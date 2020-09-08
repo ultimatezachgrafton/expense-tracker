@@ -2,8 +2,6 @@
 
 <link rel="stylesheet" href="style.css">
 
-<script src="dom.js"></script>
-
 <head>
     <title>Expense Tracker</title>
 </head>
@@ -31,7 +29,9 @@
     </form>
 </div>
     
-    <div id="button"><button onclick="addTableRow()">Add this expense</button></div>
+    <div id="button"><button id="submit-btn">
+      Add this expense
+    </button></div>
 
 
 <div class="table-transactions" >
@@ -42,11 +42,20 @@
           <th>Transaction</th>
           <th>Amount</th>
           <th>Balance</th>
+          <th></th>
         </thead>
-        <tbody>
+        <tbody id="table-body">
+          <tr id="empty-row">
+          <td colspan="5">
+            No expenses added yet!
+          </td>
+          </tr>
 
         </tbody>
         </table>
     </div>
     
+    
+  <script src="dom.js"></script>
+
 </body>

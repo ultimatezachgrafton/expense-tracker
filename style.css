@@ -24,6 +24,7 @@ button {
     background-color: gold;
     padding: 20px;
     line-height: 24px;
+    font-size: 20px;
     width: 200px;
     transition: 0.1s ease;
     border-radius: 3px;
@@ -31,9 +32,9 @@ button {
 
 .btn-delete {
     margin:5px;
-    background-color: red;
+    background-color: gold;
     color: black;
-    width: 50px;
+    width: 100px;
     line-height: 3px;
 }
 
@@ -57,14 +58,16 @@ table {
 
 th {
     padding: 10px;
+    background-color: black;
+    color: white;
 }
 
-tr:nth-child(odd) {
-    background-color: gray;
+tr:nth-child(even) {
+    background-color: black;
+    color:white;
 }
 
 td {
-    padding: 10px 15px 
-    color:gray;
+    padding: 10px 15px;
   }
 }
